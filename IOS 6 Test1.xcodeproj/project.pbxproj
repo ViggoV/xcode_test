@@ -16,6 +16,12 @@
 		B1D010B416B73BFF005C746D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B1D010B316B73BFF005C746D /* Default.png */; };
 		B1D010B616B73BFF005C746D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B1D010B516B73BFF005C746D /* Default@2x.png */; };
 		B1D010B816B73BFF005C746D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B1D010B716B73BFF005C746D /* Default-568h@2x.png */; };
+		B1D010CA16B74004005C746D /* MainWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = B1D010C816B74004005C746D /* MainWindow.m */; };
+		B1D010CB16B74004005C746D /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = B1D010C916B74004005C746D /* MainWindow.xib */; };
+		B1D0110816B74C18005C746D /* SecondWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = B1D0110616B74C18005C746D /* SecondWindow.m */; };
+		B1D0110916B74C18005C746D /* SecondWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = B1D0110716B74C18005C746D /* SecondWindow.xib */; };
+		B1D0114A16B7661C005C746D /* ThirdWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = B1D0114816B7661C005C746D /* ThirdWindow.m */; };
+		B1D0114B16B7661C005C746D /* ThirdWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = B1D0114916B7661C005C746D /* ThirdWindow.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +38,15 @@
 		B1D010B316B73BFF005C746D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		B1D010B516B73BFF005C746D /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		B1D010B716B73BFF005C746D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		B1D010C716B74004005C746D /* MainWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainWindow.h; path = MainWindow/MainWindow.h; sourceTree = "<group>"; };
+		B1D010C816B74004005C746D /* MainWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainWindow.m; path = MainWindow/MainWindow.m; sourceTree = "<group>"; };
+		B1D010C916B74004005C746D /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MainWindow.xib; path = MainWindow/MainWindow.xib; sourceTree = "<group>"; };
+		B1D0110516B74C18005C746D /* SecondWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SecondWindow.h; path = SecondWindow/SecondWindow.h; sourceTree = "<group>"; };
+		B1D0110616B74C18005C746D /* SecondWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SecondWindow.m; path = SecondWindow/SecondWindow.m; sourceTree = "<group>"; };
+		B1D0110716B74C18005C746D /* SecondWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SecondWindow.xib; path = SecondWindow/SecondWindow.xib; sourceTree = "<group>"; };
+		B1D0114716B7661C005C746D /* ThirdWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ThirdWindow.h; path = ThirdWindow/ThirdWindow.h; sourceTree = "<group>"; };
+		B1D0114816B7661C005C746D /* ThirdWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ThirdWindow.m; path = ThirdWindow/ThirdWindow.m; sourceTree = "<group>"; };
+		B1D0114916B7661C005C746D /* ThirdWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ThirdWindow.xib; path = ThirdWindow/ThirdWindow.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +67,7 @@
 			isa = PBXGroup;
 			children = (
 				B1D010A716B73BFF005C746D /* IOS 6 Test1 */,
+				B1D010A816B73BFF005C746D /* Supporting Files */,
 				B1D010A016B73BFF005C746D /* Frameworks */,
 				B1D0109E16B73BFF005C746D /* Products */,
 			);
@@ -80,7 +96,9 @@
 			children = (
 				B1D010B016B73BFF005C746D /* AppDelegate.h */,
 				B1D010B116B73BFF005C746D /* AppDelegate.m */,
-				B1D010A816B73BFF005C746D /* Supporting Files */,
+				B1D010C316B73E49005C746D /* MainWindow */,
+				B1D0110B16B74C1F005C746D /* SecondWindow */,
+				B1D0114C16B76623005C746D /* ThirdWindow */,
 			);
 			path = "IOS 6 Test1";
 			sourceTree = "<group>";
@@ -97,6 +115,37 @@
 				B1D010B716B73BFF005C746D /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			path = "IOS 6 Test1";
+			sourceTree = "<group>";
+		};
+		B1D010C316B73E49005C746D /* MainWindow */ = {
+			isa = PBXGroup;
+			children = (
+				B1D010C716B74004005C746D /* MainWindow.h */,
+				B1D010C816B74004005C746D /* MainWindow.m */,
+				B1D010C916B74004005C746D /* MainWindow.xib */,
+			);
+			name = MainWindow;
+			sourceTree = "<group>";
+		};
+		B1D0110B16B74C1F005C746D /* SecondWindow */ = {
+			isa = PBXGroup;
+			children = (
+				B1D0110516B74C18005C746D /* SecondWindow.h */,
+				B1D0110616B74C18005C746D /* SecondWindow.m */,
+				B1D0110716B74C18005C746D /* SecondWindow.xib */,
+			);
+			name = SecondWindow;
+			sourceTree = "<group>";
+		};
+		B1D0114C16B76623005C746D /* ThirdWindow */ = {
+			isa = PBXGroup;
+			children = (
+				B1D0114716B7661C005C746D /* ThirdWindow.h */,
+				B1D0114816B7661C005C746D /* ThirdWindow.m */,
+				B1D0114916B7661C005C746D /* ThirdWindow.xib */,
+			);
+			name = ThirdWindow;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,6 +203,9 @@
 				B1D010B416B73BFF005C746D /* Default.png in Resources */,
 				B1D010B616B73BFF005C746D /* Default@2x.png in Resources */,
 				B1D010B816B73BFF005C746D /* Default-568h@2x.png in Resources */,
+				B1D010CB16B74004005C746D /* MainWindow.xib in Resources */,
+				B1D0110916B74C18005C746D /* SecondWindow.xib in Resources */,
+				B1D0114B16B7661C005C746D /* ThirdWindow.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,6 +218,9 @@
 			files = (
 				B1D010AE16B73BFF005C746D /* main.m in Sources */,
 				B1D010B216B73BFF005C746D /* AppDelegate.m in Sources */,
+				B1D010CA16B74004005C746D /* MainWindow.m in Sources */,
+				B1D0110816B74C18005C746D /* SecondWindow.m in Sources */,
+				B1D0114A16B7661C005C746D /* ThirdWindow.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +331,7 @@
 				B1D010BD16B73BFF005C746D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
