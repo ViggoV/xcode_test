@@ -5,6 +5,7 @@
 //  Created by Victor Eg Frølund on 29/01/135.
 //  Copyright (c) 2013 Victor Eg Frølund. All rights reserved.
 //
+//This is a textstring to validate push
 
 #import "ThirdWindow.h"
 
